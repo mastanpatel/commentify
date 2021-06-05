@@ -18,3 +18,17 @@ E:\Projects\youtube comment management\Commentify.API\Commentify.API\obj\Debug\n
 E:\Projects\youtube comment management\Commentify.API\Commentify.API\obj\Debug\netcoreapp3.1\Commentify.API.dll
 E:\Projects\youtube comment management\Commentify.API\Commentify.API\obj\Debug\netcoreapp3.1\Commentify.API.pdb
 E:\Projects\youtube comment management\Commentify.API\Commentify.API\obj\Debug\netcoreapp3.1\Commentify.API.genruntimeconfig.cache
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Google.Apis.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Google.Apis.YouTube.v3.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\obj\Debug\netcoreapp3.1\Commentify.API.csproj.CopyComplete
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
