@@ -6,7 +6,6 @@ E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\n
 E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Commentify.API.runtimeconfig.dev.json
 E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Commentify.API.dll
 E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Commentify.API.pdb
-E:\Projects\youtube comment management\Commentify.API\Commentify.API\obj\Debug\netcoreapp3.1\Commentify.API.csprojAssemblyReference.cache
 E:\Projects\youtube comment management\Commentify.API\Commentify.API\obj\Debug\netcoreapp3.1\Commentify.API.AssemblyInfoInputs.cache
 E:\Projects\youtube comment management\Commentify.API\Commentify.API\obj\Debug\netcoreapp3.1\Commentify.API.AssemblyInfo.cs
 E:\Projects\youtube comment management\Commentify.API\Commentify.API\obj\Debug\netcoreapp3.1\Commentify.API.csproj.CoreCompileInputs.cache
@@ -32,3 +31,14 @@ E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\n
 E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
 E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
 E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\client_secrets.json
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\obj\Debug\netcoreapp3.1\Commentify.API.csprojAssemblyReference.cache
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Google.Apis.Auth.AspNetCore3.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\Projects\youtube comment management\Commentify.API\Commentify.API\obj\Debug\netcoreapp3.1\Commentify.API.MvcApplicationPartsAssemblyInfo.cs
