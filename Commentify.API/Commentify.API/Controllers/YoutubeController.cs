@@ -28,74 +28,76 @@ namespace Commentify.API.Controllers
 
         YouTubeService service;
 
-        [GoogleScopedAuthorize(YouTubeService.ScopeConstants.Youtube)]
-        public async Task Index([FromServices] IGoogleAuthProvider auth)
-        {
-            GoogleCredential cred = await auth.GetCredentialAsync();
+        //[GoogleScopedAuthorize(YouTubeService.ScopeConstants.Youtube)]
+        //public async Task index([FromServices] IGoogleAuthProvider auth)
+        //{
+        //    GoogleCredential cred = await auth.GetCredentialAsync();
 
-            //UserCredential credential;
-
-
-            //using (var stream = new FileStream("client_secrets.json", FileMode.Open, FileAccess.Read))
-            //{
-            //    credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
-            //        GoogleClientSecrets.Load(stream).Secrets,
-            //        new[] { YouTubeService.Scope.Youtube },
-            //        "user",
-            //        CancellationToken.None
-            //    );
-            //}
-
-            var channelid = "UCARsZhL9rw5uZH-NRqs2kHg";
+        //    //UserCredential credential;
 
 
-             service = new YouTubeService(new BaseClientService.Initializer
-            {
+        //    //using (var stream = new FileStream("client_secrets.json", FileMode.Open, FileAccess.Read))
+        //    //{
+        //    //    credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
+        //    //        GoogleClientSecrets.Load(stream).Secrets,
+        //    //        new[] { YouTubeService.Scope.Youtube },
+        //    //        "user",
+        //    //        CancellationToken.None
+        //    //    );
+        //    //}
 
-                HttpClientInitializer = cred,
-                ApplicationName = "Comment fetcher",
-
-                //ApplicationName = "Comment fetcher",
-                //ApiKey = "AIzaSyD3-GDrZybg3t0NMJOk8nQ8D1I6TQJ2rC0",
-            });
+        //    var channelid = "UCARsZhL9rw5uZH-NRqs2kHg";
 
 
-            var channelList = service.Channels.List("snippet");
-            channelList.Id = channelid;
-            channelList.MaxResults = 50;
+        //     service = new YouTubeService(new BaseClientService.Initializer
+        //    {
+
+        //        HttpClientInitializer = cred,
+        //        ApplicationName = "Comment fetcher",
+
+        //        //ApplicationName = "Comment fetcher",
+        //        //ApiKey = "AIzaSyD3-GDrZybg3t0NMJOk8nQ8D1I6TQJ2rC0",
+        //    });
+
+
+        //    var channelList = service.Channels.List("snippet");
+        //    channelList.Id = channelid;
+        //    channelList.MaxResults = 50;
             
 
-            var responsechannel = await channelList.ExecuteAsync();
+        //    var responsechannel = await channelList.ExecuteAsync();
 
 
             
 
-           // var comments = service.CommentThreads.List("snippet");
-           //// comments.ChannelId = "UC3lFOGszLThAICPQRs0VgZQ";
-           // comments.VideoId = "UOGWADxyDuo";
-           // comments.MaxResults = 50;
-           // var responseComments = await comments.ExecuteAsync();
+        //   // var comments = service.CommentThreads.List("snippet");
+        //   //// comments.ChannelId = "UC3lFOGszLThAICPQRs0VgZQ";
+        //   // comments.VideoId = "UOGWADxyDuo";
+        //   // comments.MaxResults = 50;
+        //   // var responseComments = await comments.ExecuteAsync();
 
 
 
-            var allchannelList = service.Search.List("snippet");
-            allchannelList.ChannelType = SearchResource.ListRequest.ChannelTypeEnum.Any;
-            allchannelList.MaxResults = 100;
+        //    var allchannelList = service.Search.List("snippet");
+        //    allchannelList.ChannelType = SearchResource.ListRequest.ChannelTypeEnum.Any;
+        //    allchannelList.MaxResults = 100;
 
-            var responseVedio = await allchannelList.ExecuteAsync();
+        //    var responseVedio = await allchannelList.ExecuteAsync();
 
-            var vedioList = service.Search.List("snippet");
-            vedioList.ChannelId = channelid;
-            vedioList.MaxResults = 100;
+        //    var vedioList = service.Search.List("snippet");
+        //    vedioList.ChannelId = channelid;
+        //    vedioList.MaxResults = 100;
             
-            var responseChannelvedios = await vedioList.ExecuteAsync();
-            //var cc = Run();
+        //    var responseChannelvedios = await vedioList.ExecuteAsync();
+        //    //var cc = Run();
 
-            getChannelDetails();
+        //    getChannelDetails();
 
 
-          //  return Result.ToArray();
-        }
+        //  //  return Result.ToArray();
+        //}
+
+
         private async Task<List<string>> Run()
         {
             // Create the service.
@@ -122,8 +124,6 @@ namespace Commentify.API.Controllers
 
             return CommentList;
         }
-
-
         private async Task<string> getChannelDetails()
         {
            
@@ -153,8 +153,11 @@ namespace Commentify.API.Controllers
             return "";
         }
 
-        //TODO
 
-        // 1. fetch all channel
+        
+        public async Task Index()
+        {
+            return;
+        }
     }
 }
